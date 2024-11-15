@@ -1,0 +1,16 @@
+{
+  "name": "lt-release-front",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "create-release:test": "node index.js -test",
+    "create-release:prod": "node index.js -prod",
+    "create-release:del-test": "node index.js -delete-test"
+  },
+  "dependencies": {
+    "next-standard-version": "^3.0.18",
+    "simple-git": "^3.27.0",
+    "standard-version": "^9.5.0"
+  }
+}
